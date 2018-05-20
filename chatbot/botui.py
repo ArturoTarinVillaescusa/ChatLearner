@@ -15,6 +15,8 @@
 import os
 import sys
 import tensorflow as tf
+import nltk
+nltk.download('punkt')
 
 from settings import PROJECT_ROOT
 from chatbot.botpredictor import BotPredictor
